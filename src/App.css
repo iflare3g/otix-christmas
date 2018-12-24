@@ -1,32 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+
 .App {
   text-align: center;
+  font-family: 'Delius Swash Caps', cursive;
+  overflow: hidden!important;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 8vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EPzzjHhuxijr01n5f/red-christmas-lights-on-wooden-background-with-place-for-your-text-4k-ultra-hd-3840x2160-video-clip_sssvzjrng_thumbnail-full07.png");
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(16px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
