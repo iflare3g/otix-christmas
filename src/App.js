@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src="http://otix.it/images/logo.png" className="App-logo animated fadeIn" alt="logo" />
-          <Typist className="animated fadeIn" cursor={cursor}>
+          <Typist className="animated fadeIn" cursor={cursor} startDelay={50}>
           <p>
             We want to wish you a Merry Christmas<br/>
             & Happy New Year!
@@ -25,7 +25,7 @@ class App extends Component {
           </Typist>
         </header>
         <div>
-        <SnowStorm/>
+        <SnowStorm excludeMobile={ false }/>
         </div>
       </div>
     );

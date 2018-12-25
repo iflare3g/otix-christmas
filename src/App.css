@@ -27,3 +27,9 @@
 .App-link {
   color: #61dafb;
 }
+
+@media (max-width:425px) {
+  .App-header {
+    background-image: url("http://pa1.narvii.com/6309/a62e557f7aa2dbb2c75aafc45c9b31415287400e_hq.gif");
+  }
+}
