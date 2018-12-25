@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
 .App {
   text-align: center;
   font-family: 'Delius Swash Caps', cursive;
