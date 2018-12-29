@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
 html, body {
   overflow-x: hidden;
@@ -9,7 +10,8 @@ body {
 
 .App {
   text-align: center;
-  font-family: 'Delius Swash Caps', cursive;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Space Mono', monospace;
   overflow: hidden!important;
 }
 
@@ -27,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(16px + 2vmin);
+  font-size: calc(32px + 2vmin);
   color: white;
 }
 
@@ -38,5 +40,12 @@ body {
 @media (max-width:425px) {
   .App-header {
     background-image: url("https://i.pinimg.com/564x/6d/25/bf/6d25bf1f2c830b32fe6e5f489b4558b4.jpg");
+    font-size: calc(18px + 2vmin);
   }
+}
+
+canvas {
+  height: 100vh;
+  width: 100vw;
+  display: block;
 }
